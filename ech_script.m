@@ -1,4 +1,4 @@
-x = ustep(t,ad,A);
+x = echelon(t,ad,A);
 F = fliplr(x);  % echelon(-t)
 p = (x+F)/2  % pair echelon part 
 I = (x-F)/2  % impair echelon part
