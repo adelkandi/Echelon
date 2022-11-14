@@ -1,13 +1,13 @@
 % Inputs :
-t = input('Give the value of the Time interval:')
-ad = input('Give the value of AD:')
-A = inpute ('Give the value of the amplitude')
+t = input('Give the value of the Time interval:');
+ad = input('Give the value of AD:');
+A = inpute ('Give the value of the amplitude');
 
 
 x = echelon(t,ad,A); % define the echelon function 
 F = fliplr(x);  % echelon(-t)
-p = (x+F)/2  % pair echelon part 
-I = (x-F)/2  % impair echelon part
+p = (x+F)/2;  % pair echelon part 
+I = (x-F)/2;  % impair echelon part
 
 % plot the signal  echlon(t)
  subplot(4,1,1);
